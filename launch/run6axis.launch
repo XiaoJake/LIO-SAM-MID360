@@ -1,5 +1,7 @@
 <launch>
 
+    <arg name="use_sim_time" default="false"/>
+
     <arg name="project" default="lio_sam"/>
 
     <!-- 指定打印输出的日志等级 -->
@@ -18,6 +20,6 @@
     <!-- <include file="$(find lio_sam)/launch/include/module_navsat.launch" /> -->
 
     <!--- Run Rviz-->
-    <include file="$(find lio_sam)/launch/include/module_rviz.launch" />
+    <!-- <include file="$(find lio_sam)/launch/include/module_rviz.launch" /> -->
 
 </launch>
