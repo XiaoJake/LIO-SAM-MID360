@@ -12,9 +12,15 @@
 
 ## Prepare lidar data
 
-Livox MID360雷达数据请使用览沃自定义点云数据`CustomMsg`，即LIVOX ROS驱动请运行`livox_lidar_msg.launch`。
+Livox MID360雷达数据请使用览沃自定义点云数据 `CustomMsg`，即LIVOX ROS驱动请运行 `livox_lidar_msg.launch`。
 
 ## Run
+
+播放demo bag包(使用的mid360中自带的6轴imu)
+
+```
+
+```
 
 使用自带的6轴IMU请运行
 
